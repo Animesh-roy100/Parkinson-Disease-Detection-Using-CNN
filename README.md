@@ -8,6 +8,7 @@ patients. The overall classification accuracy resulting from the CNN model is 97
 ## Accuracy and Loss for Parkinson's Disease:
 Validation Loss: 0.07
 Validation Accuracy: 0.97
+
 ![](Info/PD_Accuracy.png)
 ![](Info/PD_Loss.png)
 
@@ -16,11 +17,13 @@ Validation Accuracy: 0.97
 ### Brain Tumor:
 Validation Loss: 0.27
 Validation Accuracy: 0.93
+
 ![](Info/Brain_Tumor_Accuracy.png)
 ![](Info/Brain_Tumor_Loss.png)
 
 ### Lung Cancer:
 Validation Loss: 0.14
 Validation Accuracy: 0.95
+
 ![](Info/Lung_Cancer_Accuracy.png)
 ![](Info/Lung_Cancer_Loss.png)
