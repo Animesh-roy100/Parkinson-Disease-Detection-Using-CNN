@@ -3,6 +3,15 @@
 patients. The overall classification accuracy resulting from the CNN model is 97.26% and the testing accuracy is 0.79, 0.82, 0.90 and 0.92 for XGBoost, Logistic Regression, DecisionTree Classifer, and SVC models respectively. Also, I have used KNN and RandomForest Classifier for the classification of the speech dataset.
 
 ## CNN Model: 
+The model architecture used in the implementation is a CNN model with the following features:
+  1. Four convolutional layers with 128, 64, 32, and 32 filters each are present in the model.
+  2. There are filters with different filter sizes in the convolutional layers.
+  3. Each convolutional layer is followed by a MaxPool2D layer. 
+  4. The convolutional block is followed by one fully linked layer.
+  5. The last layer includes 2 channels for 2 classifications with softmax function.
+
+Using Adam optimiser, the model is trained at a learning rate of 3.15e-5. Epochs have been set to 50.
+
 ![](Info/CNN_Model.png)
 
 ## Accuracy and Loss for Parkinson's Disease:
